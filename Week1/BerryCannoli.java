@@ -1,4 +1,6 @@
-public class BerryCannoli extends CannoliDecorator{
+package OODSpring2021.Week1;
+
+public class BerryCannoli extends CannoliDecorator {
     public BerryCannoli(Cannoli decoratedCannoli) {
         super(decoratedCannoli);
     }
